@@ -1,0 +1,286 @@
+#########################################
+
+Problem: 1.0, Set: 1.0
+Initial Config game 1
+[1 2 3 7 8 0 6 5 4]
+Node: 1, State Matrix:[1 2 3 7 8 4 6 5 0], Action: Down, Gval: 1, Hval  : 4, iterExpanded: 3
+Node: 2, State Matrix:[1 2 3 7 8 4 6 0 5], Action: Left, Gval: 2, Hval  : 3, iterExpanded: 4
+Node: 3, State Matrix:[1 2 3 7 8 4 0 6 5], Action: Left, Gval: 3, Hval  : 2, iterExpanded: 6
+Node: 4, State Matrix:[1 2 3 0 8 4 7 6 5], Action: Up, Gval: 4, Hval  : 1, iterExpanded: 7
+Node: 5, State Matrix:[1 2 3 8 0 4 7 6 5], Action: Right, Gval: 5, Hval  : 0, iterExpanded: 8
+
+Branching Factor: 2.125
+
+#########################################
+#########################################
+
+Problem: 2.0, Set: 1.0
+Initial Config game 2
+[1 3 4 8 6 2 7 0 5]
+Node: 1, State Matrix:[1 3 4 8 0 2 7 6 5], Action: Up, Gval: 1, Hval  : 2, iterExpanded: 2
+Node: 2, State Matrix:[1 3 4 8 2 0 7 6 5], Action: Right, Gval: 2, Hval  : 3, iterExpanded: 4
+Node: 3, State Matrix:[1 3 0 8 2 4 7 6 5], Action: Up, Gval: 3, Hval  : 2, iterExpanded: 5
+Node: 4, State Matrix:[1 0 3 8 2 4 7 6 5], Action: Left, Gval: 4, Hval  : 1, iterExpanded: 6
+Node: 5, State Matrix:[1 2 3 8 0 4 7 6 5], Action: Down, Gval: 5, Hval  : 0, iterExpanded: 7
+
+Branching Factor: 2.142857142857143
+
+#########################################
+#########################################
+
+Problem: 3.0, Set: 1.0
+Initial Config game 3
+[8 1 3 2 4 0 7 6 5]
+Node: 1, State Matrix:[8 1 3 2 0 4 7 6 5], Action: Left, Gval: 1, Hval  : 2, iterExpanded: 2
+Node: 2, State Matrix:[8 1 3 0 2 4 7 6 5], Action: Left, Gval: 2, Hval  : 3, iterExpanded: 4
+Node: 3, State Matrix:[0 1 3 8 2 4 7 6 5], Action: Up, Gval: 3, Hval  : 2, iterExpanded: 5
+Node: 4, State Matrix:[1 0 3 8 2 4 7 6 5], Action: Right, Gval: 4, Hval  : 1, iterExpanded: 6
+Node: 5, State Matrix:[1 2 3 8 0 4 7 6 5], Action: Down, Gval: 5, Hval  : 0, iterExpanded: 7
+
+Branching Factor: 2.142857142857143
+
+#########################################
+#########################################
+
+Problem: 4.0, Set: 1.0
+Initial Config game 4
+[1 0 2 8 6 3 7 5 4]
+Node: 1, State Matrix:[1 2 0 8 6 3 7 5 4], Action: Right, Gval: 1, Hval  : 4, iterExpanded: 2
+Node: 2, State Matrix:[1 2 3 8 6 0 7 5 4], Action: Down, Gval: 2, Hval  : 3, iterExpanded: 4
+Node: 3, State Matrix:[1 2 3 8 6 4 7 5 0], Action: Down, Gval: 3, Hval  : 2, iterExpanded: 6
+Node: 4, State Matrix:[1 2 3 8 6 4 7 0 5], Action: Left, Gval: 4, Hval  : 1, iterExpanded: 7
+Node: 5, State Matrix:[1 2 3 8 0 4 7 6 5], Action: Up, Gval: 5, Hval  : 0, iterExpanded: 8
+
+Branching Factor: 2.125
+
+#########################################
+#########################################
+
+Problem: 5.0, Set: 1.0
+Initial Config game 5
+[1 2 3 0 4 5 8 7 6]
+Node: 1, State Matrix:[1 2 3 8 4 5 0 7 6], Action: Down, Gval: 1, Hval  : 4, iterExpanded: 3
+Node: 2, State Matrix:[1 2 3 8 4 5 7 0 6], Action: Right, Gval: 2, Hval  : 3, iterExpanded: 4
+Node: 3, State Matrix:[1 2 3 8 4 5 7 6 0], Action: Right, Gval: 3, Hval  : 2, iterExpanded: 6
+Node: 4, State Matrix:[1 2 3 8 4 0 7 6 5], Action: Up, Gval: 4, Hval  : 1, iterExpanded: 7
+Node: 5, State Matrix:[1 2 3 8 0 4 7 6 5], Action: Left, Gval: 5, Hval  : 0, iterExpanded: 8
+
+Branching Factor: 2.125
+
+#########################################
+#########################################
+
+Problem: 1.0, Set: 2.0
+Initial Config game 6
+[1 3 4 7 0 5 6 2 8]
+Node: 1, State Matrix:[1 3 4 7 2 5 6 0 8], Action: Down, Gval: 1, Hval  : 7, iterExpanded: 5
+Node: 2, State Matrix:[1 3 4 7 2 5 6 8 0], Action: Right, Gval: 2, Hval  : 7, iterExpanded: 15
+Node: 3, State Matrix:[1 3 4 7 2 0 6 8 5], Action: Up, Gval: 3, Hval  : 6, iterExpanded: 16
+Node: 4, State Matrix:[1 3 0 7 2 4 6 8 5], Action: Up, Gval: 4, Hval  : 5, iterExpanded: 17
+Node: 5, State Matrix:[1 0 3 7 2 4 6 8 5], Action: Left, Gval: 5, Hval  : 4, iterExpanded: 19
+Node: 6, State Matrix:[1 2 3 7 0 4 6 8 5], Action: Down, Gval: 6, Hval  : 2, iterExpanded: 20
+Node: 7, State Matrix:[1 2 3 7 8 4 6 0 5], Action: Down, Gval: 7, Hval  : 3, iterExpanded: 33
+Node: 8, State Matrix:[1 2 3 7 8 4 0 6 5], Action: Left, Gval: 8, Hval  : 2, iterExpanded: 40
+Node: 9, State Matrix:[1 2 3 0 8 4 7 6 5], Action: Up, Gval: 9, Hval  : 1, iterExpanded: 44
+Node: 10, State Matrix:[1 2 3 8 0 4 7 6 5], Action: Right, Gval: 10, Hval  : 0, iterExpanded: 47
+
+Branching Factor: 1.872340425531915
+
+#########################################
+#########################################
+
+Problem: 2.0, Set: 2.0
+Initial Config game 7
+[8 2 1 7 0 3 6 5 4]
+Node: 1, State Matrix:[8 0 1 7 2 3 6 5 4], Action: Up, Gval: 1, Hval  : 8, iterExpanded: 17
+Node: 2, State Matrix:[8 1 0 7 2 3 6 5 4], Action: Right, Gval: 2, Hval  : 8, iterExpanded: 27
+Node: 3, State Matrix:[8 1 3 7 2 0 6 5 4], Action: Down, Gval: 3, Hval  : 7, iterExpanded: 35
+Node: 4, State Matrix:[8 1 3 7 2 4 6 5 0], Action: Down, Gval: 4, Hval  : 6, iterExpanded: 39
+Node: 5, State Matrix:[8 1 3 7 2 4 6 0 5], Action: Left, Gval: 5, Hval  : 5, iterExpanded: 40
+Node: 6, State Matrix:[8 1 3 7 2 4 0 6 5], Action: Left, Gval: 6, Hval  : 4, iterExpanded: 42
+Node: 7, State Matrix:[8 1 3 0 2 4 7 6 5], Action: Up, Gval: 7, Hval  : 3, iterExpanded: 43
+Node: 8, State Matrix:[0 1 3 8 2 4 7 6 5], Action: Up, Gval: 8, Hval  : 2, iterExpanded: 44
+Node: 9, State Matrix:[1 0 3 8 2 4 7 6 5], Action: Right, Gval: 9, Hval  : 1, iterExpanded: 46
+Node: 10, State Matrix:[1 2 3 8 0 4 7 6 5], Action: Down, Gval: 10, Hval  : 0, iterExpanded: 47
+
+Branching Factor: 1.9361702127659575
+
+#########################################
+#########################################
+
+Problem: 3.0, Set: 2.0
+Initial Config game 8
+[1 4 2 6 7 3 8 5 0]
+Node: 1, State Matrix:[1 4 2 6 7 3 8 0 5], Action: Left, Gval: 1, Hval  : 6, iterExpanded: 2
+Node: 2, State Matrix:[1 4 2 6 0 3 8 7 5], Action: Up, Gval: 2, Hval  : 5, iterExpanded: 3
+Node: 3, State Matrix:[1 0 2 6 4 3 8 7 5], Action: Up, Gval: 3, Hval  : 6, iterExpanded: 7
+Node: 4, State Matrix:[1 2 0 6 4 3 8 7 5], Action: Right, Gval: 4, Hval  : 5, iterExpanded: 12
+Node: 5, State Matrix:[1 2 3 6 4 0 8 7 5], Action: Down, Gval: 5, Hval  : 4, iterExpanded: 15
+Node: 6, State Matrix:[1 2 3 6 0 4 8 7 5], Action: Left, Gval: 6, Hval  : 2, iterExpanded: 16
+Node: 7, State Matrix:[1 2 3 0 6 4 8 7 5], Action: Left, Gval: 7, Hval  : 3, iterExpanded: 24
+Node: 8, State Matrix:[1 2 3 8 6 4 0 7 5], Action: Down, Gval: 8, Hval  : 2, iterExpanded: 31
+Node: 9, State Matrix:[1 2 3 8 6 4 7 0 5], Action: Right, Gval: 9, Hval  : 1, iterExpanded: 33
+Node: 10, State Matrix:[1 2 3 8 0 4 7 6 5], Action: Up, Gval: 10, Hval  : 0, iterExpanded: 35
+
+Branching Factor: 1.8857142857142857
+
+#########################################
+#########################################
+
+Problem: 4.0, Set: 2.0
+Initial Config game 9
+[1 3 0 5 2 6 8 7 4]
+Node: 1, State Matrix:[1 0 3 5 2 6 8 7 4], Action: Left, Gval: 1, Hval  : 6, iterExpanded: 2
+Node: 2, State Matrix:[1 2 3 5 0 6 8 7 4], Action: Down, Gval: 2, Hval  : 4, iterExpanded: 3
+Node: 3, State Matrix:[1 2 3 0 5 6 8 7 4], Action: Left, Gval: 3, Hval  : 5, iterExpanded: 5
+Node: 4, State Matrix:[1 2 3 8 5 6 0 7 4], Action: Down, Gval: 4, Hval  : 4, iterExpanded: 10
+Node: 5, State Matrix:[1 2 3 8 5 6 7 0 4], Action: Right, Gval: 5, Hval  : 3, iterExpanded: 12
+Node: 6, State Matrix:[1 2 3 8 0 6 7 5 4], Action: Up, Gval: 6, Hval  : 2, iterExpanded: 13
+Node: 7, State Matrix:[1 2 3 8 6 0 7 5 4], Action: Right, Gval: 7, Hval  : 3, iterExpanded: 27
+Node: 8, State Matrix:[1 2 3 8 6 4 7 5 0], Action: Down, Gval: 8, Hval  : 2, iterExpanded: 36
+Node: 9, State Matrix:[1 2 3 8 6 4 7 0 5], Action: Left, Gval: 9, Hval  : 1, iterExpanded: 44
+Node: 10, State Matrix:[1 2 3 8 0 4 7 6 5], Action: Up, Gval: 10, Hval  : 0, iterExpanded: 47
+
+Branching Factor: 1.8936170212765957
+
+#########################################
+#########################################
+
+Problem: 5.0, Set: 2.0
+Initial Config game 10
+[8 3 4 2 0 5 7 1 6]
+Node: 1, State Matrix:[8 3 4 2 1 5 7 0 6], Action: Down, Gval: 1, Hval  : 7, iterExpanded: 5
+Node: 2, State Matrix:[8 3 4 2 1 5 7 6 0], Action: Right, Gval: 2, Hval  : 6, iterExpanded: 8
+Node: 3, State Matrix:[8 3 4 2 1 0 7 6 5], Action: Up, Gval: 3, Hval  : 5, iterExpanded: 10
+Node: 4, State Matrix:[8 3 0 2 1 4 7 6 5], Action: Up, Gval: 4, Hval  : 4, iterExpanded: 12
+Node: 5, State Matrix:[8 0 3 2 1 4 7 6 5], Action: Left, Gval: 5, Hval  : 3, iterExpanded: 14
+Node: 6, State Matrix:[8 1 3 2 0 4 7 6 5], Action: Down, Gval: 6, Hval  : 2, iterExpanded: 15
+Node: 7, State Matrix:[8 1 3 0 2 4 7 6 5], Action: Left, Gval: 7, Hval  : 3, iterExpanded: 29
+Node: 8, State Matrix:[0 1 3 8 2 4 7 6 5], Action: Up, Gval: 8, Hval  : 2, iterExpanded: 41
+Node: 9, State Matrix:[1 0 3 8 2 4 7 6 5], Action: Right, Gval: 9, Hval  : 1, iterExpanded: 49
+Node: 10, State Matrix:[1 2 3 8 0 4 7 6 5], Action: Down, Gval: 10, Hval  : 0, iterExpanded: 51
+
+Branching Factor: 1.8627450980392157
+
+#########################################
+#########################################
+
+Problem: 1.0, Set: 3.0
+Initial Config game 11
+[1 5 3 0 7 4 6 2 8]
+Node: 1, State Matrix:[1 5 3 7 0 4 6 2 8], Action: Right, Gval: 1, Hval  : 4, iterExpanded: 2
+Node: 2, State Matrix:[1 0 3 7 5 4 6 2 8], Action: Up, Gval: 2, Hval  : 5, iterExpanded: 5
+Node: 3, State Matrix:[1 3 0 7 5 4 6 2 8], Action: Right, Gval: 3, Hval  : 6, iterExpanded: 18
+Node: 4, State Matrix:[1 3 4 7 5 0 6 2 8], Action: Down, Gval: 4, Hval  : 7, iterExpanded: 47
+Node: 5, State Matrix:[1 3 4 7 0 5 6 2 8], Action: Left, Gval: 5, Hval  : 6, iterExpanded: 63
+Node: 6, State Matrix:[1 3 4 7 2 5 6 0 8], Action: Down, Gval: 6, Hval  : 7, iterExpanded: 121
+Node: 7, State Matrix:[1 3 4 7 2 5 6 8 0], Action: Right, Gval: 7, Hval  : 7, iterExpanded: 222
+Node: 8, State Matrix:[1 3 4 7 2 0 6 8 5], Action: Up, Gval: 8, Hval  : 6, iterExpanded: 246
+Node: 9, State Matrix:[1 3 0 7 2 4 6 8 5], Action: Up, Gval: 9, Hval  : 5, iterExpanded: 257
+Node: 10, State Matrix:[1 0 3 7 2 4 6 8 5], Action: Left, Gval: 10, Hval  : 4, iterExpanded: 261
+Node: 11, State Matrix:[1 2 3 7 0 4 6 8 5], Action: Down, Gval: 11, Hval  : 2, iterExpanded: 262
+Node: 12, State Matrix:[1 2 3 7 8 4 6 0 5], Action: Down, Gval: 12, Hval  : 3, iterExpanded: 397
+Node: 13, State Matrix:[1 2 3 7 8 4 0 6 5], Action: Left, Gval: 13, Hval  : 2, iterExpanded: 443
+Node: 14, State Matrix:[1 2 3 0 8 4 7 6 5], Action: Up, Gval: 14, Hval  : 1, iterExpanded: 452
+Node: 15, State Matrix:[1 2 3 8 0 4 7 6 5], Action: Right, Gval: 15, Hval  : 0, iterExpanded: 457
+
+Branching Factor: 1.7286652078774618
+
+#########################################
+#########################################
+
+Problem: 2.0, Set: 3.0
+Initial Config game 12
+[8 0 2 7 5 1 6 4 3]
+Node: 1, State Matrix:[8 2 0 7 5 1 6 4 3], Action: Right, Gval: 1, Hval  : 7, iterExpanded: 2
+Node: 2, State Matrix:[8 2 1 7 5 0 6 4 3], Action: Down, Gval: 2, Hval  : 7, iterExpanded: 5
+Node: 3, State Matrix:[8 2 1 7 5 3 6 4 0], Action: Down, Gval: 3, Hval  : 7, iterExpanded: 11
+Node: 4, State Matrix:[8 2 1 7 5 3 6 0 4], Action: Left, Gval: 4, Hval  : 7, iterExpanded: 25
+Node: 5, State Matrix:[8 2 1 7 0 3 6 5 4], Action: Up, Gval: 5, Hval  : 6, iterExpanded: 30
+Node: 6, State Matrix:[8 0 1 7 2 3 6 5 4], Action: Up, Gval: 6, Hval  : 8, iterExpanded: 135
+Node: 7, State Matrix:[8 1 0 7 2 3 6 5 4], Action: Right, Gval: 7, Hval  : 8, iterExpanded: 266
+Node: 8, State Matrix:[8 1 3 7 2 0 6 5 4], Action: Down, Gval: 8, Hval  : 7, iterExpanded: 348
+Node: 9, State Matrix:[8 1 3 7 2 4 6 5 0], Action: Down, Gval: 9, Hval  : 6, iterExpanded: 376
+Node: 10, State Matrix:[8 1 3 7 2 4 6 0 5], Action: Left, Gval: 10, Hval  : 5, iterExpanded: 384
+Node: 11, State Matrix:[8 1 3 7 2 4 0 6 5], Action: Left, Gval: 11, Hval  : 4, iterExpanded: 390
+Node: 12, State Matrix:[8 1 3 0 2 4 7 6 5], Action: Up, Gval: 12, Hval  : 3, iterExpanded: 391
+Node: 13, State Matrix:[0 1 3 8 2 4 7 6 5], Action: Up, Gval: 13, Hval  : 2, iterExpanded: 392
+Node: 14, State Matrix:[1 0 3 8 2 4 7 6 5], Action: Right, Gval: 14, Hval  : 1, iterExpanded: 394
+Node: 15, State Matrix:[1 2 3 8 0 4 7 6 5], Action: Down, Gval: 15, Hval  : 0, iterExpanded: 395
+
+Branching Factor: 1.7341772151898733
+
+#########################################
+#########################################
+
+Problem: 3.0, Set: 3.0
+Initial Config game 13
+[6 1 2 0 4 7 8 5 3]
+Node: 1, State Matrix:[0 1 2 6 4 7 8 5 3], Action: Up, Gval: 1, Hval  : 8, iterExpanded: 4
+Node: 2, State Matrix:[1 0 2 6 4 7 8 5 3], Action: Right, Gval: 2, Hval  : 7, iterExpanded: 6
+Node: 3, State Matrix:[1 4 2 6 0 7 8 5 3], Action: Down, Gval: 3, Hval  : 6, iterExpanded: 9
+Node: 4, State Matrix:[1 4 2 6 7 0 8 5 3], Action: Right, Gval: 4, Hval  : 7, iterExpanded: 20
+Node: 5, State Matrix:[1 4 2 6 7 3 8 5 0], Action: Down, Gval: 5, Hval  : 7, iterExpanded: 47
+Node: 6, State Matrix:[1 4 2 6 7 3 8 0 5], Action: Left, Gval: 6, Hval  : 6, iterExpanded: 67
+Node: 7, State Matrix:[1 4 2 6 0 3 8 7 5], Action: Up, Gval: 7, Hval  : 5, iterExpanded: 76
+Node: 8, State Matrix:[1 0 2 6 4 3 8 7 5], Action: Up, Gval: 8, Hval  : 6, iterExpanded: 162
+Node: 9, State Matrix:[1 2 0 6 4 3 8 7 5], Action: Right, Gval: 9, Hval  : 5, iterExpanded: 202
+Node: 10, State Matrix:[1 2 3 6 4 0 8 7 5], Action: Down, Gval: 10, Hval  : 4, iterExpanded: 216
+Node: 11, State Matrix:[1 2 3 6 0 4 8 7 5], Action: Left, Gval: 11, Hval  : 2, iterExpanded: 217
+Node: 12, State Matrix:[1 2 3 0 6 4 8 7 5], Action: Left, Gval: 12, Hval  : 3, iterExpanded: 327
+Node: 13, State Matrix:[1 2 3 8 6 4 0 7 5], Action: Down, Gval: 13, Hval  : 2, iterExpanded: 364
+Node: 14, State Matrix:[1 2 3 8 6 4 7 0 5], Action: Right, Gval: 14, Hval  : 1, iterExpanded: 373
+Node: 15, State Matrix:[1 2 3 8 0 4 7 6 5], Action: Up, Gval: 15, Hval  : 0, iterExpanded: 380
+
+Branching Factor: 1.7157894736842105
+
+#########################################
+#########################################
+
+Problem: 4.0, Set: 3.0
+Initial Config game 14
+[5 1 6 0 3 2 8 7 4]
+Node: 1, State Matrix:[0 1 6 5 3 2 8 7 4], Action: Up, Gval: 1, Hval  : 8, iterExpanded: 6
+Node: 2, State Matrix:[1 0 6 5 3 2 8 7 4], Action: Right, Gval: 2, Hval  : 7, iterExpanded: 8
+Node: 3, State Matrix:[1 3 6 5 0 2 8 7 4], Action: Down, Gval: 3, Hval  : 6, iterExpanded: 9
+Node: 4, State Matrix:[1 3 6 5 2 0 8 7 4], Action: Right, Gval: 4, Hval  : 7, iterExpanded: 22
+Node: 5, State Matrix:[1 3 0 5 2 6 8 7 4], Action: Up, Gval: 5, Hval  : 7, iterExpanded: 47
+Node: 6, State Matrix:[1 0 3 5 2 6 8 7 4], Action: Left, Gval: 6, Hval  : 6, iterExpanded: 65
+Node: 7, State Matrix:[1 2 3 5 0 6 8 7 4], Action: Down, Gval: 7, Hval  : 4, iterExpanded: 66
+Node: 8, State Matrix:[1 2 3 0 5 6 8 7 4], Action: Left, Gval: 8, Hval  : 5, iterExpanded: 114
+Node: 9, State Matrix:[1 2 3 8 5 6 0 7 4], Action: Down, Gval: 9, Hval  : 4, iterExpanded: 134
+Node: 10, State Matrix:[1 2 3 8 5 6 7 0 4], Action: Right, Gval: 10, Hval  : 3, iterExpanded: 142
+Node: 11, State Matrix:[1 2 3 8 0 6 7 5 4], Action: Up, Gval: 11, Hval  : 2, iterExpanded: 145
+Node: 12, State Matrix:[1 2 3 8 6 0 7 5 4], Action: Right, Gval: 12, Hval  : 3, iterExpanded: 287
+Node: 13, State Matrix:[1 2 3 8 6 4 7 5 0], Action: Down, Gval: 13, Hval  : 2, iterExpanded: 367
+Node: 14, State Matrix:[1 2 3 8 6 4 7 0 5], Action: Left, Gval: 14, Hval  : 1, iterExpanded: 397
+Node: 15, State Matrix:[1 2 3 8 0 4 7 6 5], Action: Up, Gval: 15, Hval  : 0, iterExpanded: 401
+
+Branching Factor: 1.7107231920199502
+
+#########################################
+#########################################
+
+Problem: 5.0, Set: 3.0
+Initial Config game 15
+[8 3 4 0 5 6 2 7 1]
+Node: 1, State Matrix:[8 3 4 2 5 6 0 7 1], Action: Down, Gval: 1, Hval  : 8, iterExpanded: 4
+Node: 2, State Matrix:[8 3 4 2 5 6 7 0 1], Action: Right, Gval: 2, Hval  : 7, iterExpanded: 6
+Node: 3, State Matrix:[8 3 4 2 0 6 7 5 1], Action: Up, Gval: 3, Hval  : 6, iterExpanded: 8
+Node: 4, State Matrix:[8 3 4 2 6 0 7 5 1], Action: Right, Gval: 4, Hval  : 7, iterExpanded: 21
+Node: 5, State Matrix:[8 3 4 2 6 1 7 5 0], Action: Down, Gval: 5, Hval  : 7, iterExpanded: 48
+Node: 6, State Matrix:[8 3 4 2 6 1 7 0 5], Action: Left, Gval: 6, Hval  : 6, iterExpanded: 63
+Node: 7, State Matrix:[8 3 4 2 0 1 7 6 5], Action: Up, Gval: 7, Hval  : 4, iterExpanded: 64
+Node: 8, State Matrix:[8 3 4 2 1 0 7 6 5], Action: Right, Gval: 8, Hval  : 5, iterExpanded: 113
+Node: 9, State Matrix:[8 3 0 2 1 4 7 6 5], Action: Up, Gval: 9, Hval  : 4, iterExpanded: 137
+Node: 10, State Matrix:[8 0 3 2 1 4 7 6 5], Action: Left, Gval: 10, Hval  : 3, iterExpanded: 142
+Node: 11, State Matrix:[8 1 3 2 0 4 7 6 5], Action: Down, Gval: 11, Hval  : 2, iterExpanded: 144
+Node: 12, State Matrix:[8 1 3 0 2 4 7 6 5], Action: Left, Gval: 12, Hval  : 3, iterExpanded: 279
+Node: 13, State Matrix:[0 1 3 8 2 4 7 6 5], Action: Up, Gval: 13, Hval  : 2, iterExpanded: 358
+Node: 14, State Matrix:[1 0 3 8 2 4 7 6 5], Action: Right, Gval: 14, Hval  : 1, iterExpanded: 389
+Node: 15, State Matrix:[1 2 3 8 0 4 7 6 5], Action: Down, Gval: 15, Hval  : 0, iterExpanded: 394
+
+Branching Factor: 1.6928934010152283
+
+#########################################
+Average Branching Factor: 1.9129033212552655
