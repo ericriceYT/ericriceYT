@@ -1,1 +1,1 @@
-# This is the directory for the 8 Puzzle Solver
+# This is the project for the 8 Puzzle Solver
