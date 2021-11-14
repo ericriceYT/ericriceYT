@@ -6,7 +6,7 @@ The original intent of this project was to determine the most valuable position 
 main_analyzeData.py is the main python script to pull in fantasy data football from internet and convert to spreadsheets. 
 If spreadsheets exist, the script will load spreadsheets instead. Scraping data takes 2-3 hrs, loading spreadsheets takes a few seconds.
 
-# The spreadsheets:
+# The Spreadsheets
 These spreadsheets have player data for all fantasy-football relevant players between 2013-2020.
 Player data for each week is available as well as season totals.
 Data Sources:
